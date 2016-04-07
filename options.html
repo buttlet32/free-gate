@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Settings</title>
+    <link rel="stylesheet" href="/css/base_1.css">
+    <link rel="stylesheet" href="/css/amazium.css">
+    <link rel="stylesheet" href="/css/simplemodal.css">
+    <script type="text/javascript" src="lib/MooTools-Core-1.5.2-compat-compressed.js"></script>
+    <script type="text/javascript" src="lib/ls.js"></script>
+    <script type="text/javascript" src="lib/lib.js"></script>
+    <script type="text/javascript" src="lib/simple-modal.js" async></script>
+</head>
+
+<body style="background: #666;">
+
+<div style="padding: 20px; background: #999;">
+
+    <script type="text/javascript" src="js/options.js" async></script>
+    
+	<div style="background: #e9e9e9;">
+        <div class="row">
+			<br/>friGate+ CDN Proxy (Ultimate Edition) - <strong>free version</strong>
+			<br/>It is not original version of the "friGate". You are using fork (modified version)
+            <br/><br/>
+            <div class="grid_12">
+                <h1 id="header"><img src="im/64.png" id="frigate_logo" style="vertical-align: middle;"></h1>
+            </div>
+            <div class="cl">&nbsp;</div>
+            <br/>
+        </div>
+    </div>
+	
+    <br/><br/>
+    <div class="row">
+        <div class="grid_10 offset_1">
+            <h3 id="messLists"></h3>
+            <div id="stylized-form">
+                <div class="wrapper-block">
+                    <h4 id="ownlist"></h4>
+                    <div id="list_list"></div>
+                    <div id="inNewVer"></div>
+                    <input type="text" name="listname" id="listname" value="" />
+                    <span></span>
+                    <a class="btn-form2" id="addlist"></a>
+                </div>
+            </div>
+            <a href="lists.html" id="messListsAdd" class="btn-form3"></a>
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="grid_10 offset_1">
+            <h3 id="header_proxy"></h3>
+            <div id="stylized-form">
+                <div class="wrapper-block">
+                    <h4 id="ownproxy"></h4>
+                    <div id="proxy_list"></div>
+                    <input checked="checked" type="radio" name="frigateproxytype" id="frigateproxytypep" style="margin-bottom: 3px;" />PROXY
+                    <input type="radio" name="frigateproxytype" id="frigateproxytypes" style="margin-bottom: 3px;" />SOCKS
+                    <br/>
+                    <input type="text" name="proxy" id="proxy" />
+                    <span></span>
+                    <a class="btn-form2" id="addproxy"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="grid_10 offset_1">
+            <h3 id="header_anon"></h3>
+            <div id="stylized-form">
+                <div class="wrapper-block">
+                    <div class="img-left"><input type="checkbox" name="isanon" id="anon"></div>
+                    <span id="isanon"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
+    <div class="row">
+        <div class="grid_10 offset_1">
+            <h3 id="header_alert"></h3>
+
+            <div id="stylized-form">
+                <div class="wrapper-block">
+                    <div class="img-left"><input type="checkbox" name="isalert" id="noalert"></div>
+                    <span id="isalert"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
+    <div class="row">
+        <div class="grid_10 offset_1">
+            <h3 id="header_opt"></h3>
+            <div id="stylized-form">
+                <div class="wrapper-block">
+                    <div class="img-left"><input type="checkbox" name="iscompress" id="nocompress"></div>
+                    <span id="iscompress"></span>
+                    <br>
+					<span id="ContentLenStat" style="display: none;">
+						<span id="ContentLen"></span>
+						<span id="OriginalContentLength"></span>
+						<span id="ContentLenInterval"></span>
+						<a href="" class="btn-form2" id="resetContentLen"></a>
+                    </span>
+                    <div class="clear"></div>
+                    <div class="img-left"><input type="checkbox" name="autochproxy" id="noautochproxy"></div>
+                    <span id="autochproxy"></span>
+                    <div class="clear"></div>
+                    <div class="img-left"><input type="checkbox" name="slowconn" id="isslowconn"></div>
+                    <span id="slowconn"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+	
+	<div style="background: #e9e9e9;">
+        <div class="row">
+			<br/>friGate+ CDN Proxy (Ultimate Edition) - <strong>free version</strong>
+			<br/>It is not original version of the "friGate". You are using fork (modified version)
+            <br/><br/>
+        </div>
+    </div>
+	
+</div>
+
+</body>
+</html>

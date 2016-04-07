@@ -1,0 +1,31 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": "im/38g.png",
+      "default_title": "__MSG_browser_action_title__"
+   },
+   "content_scripts": [ {
+      "css": [ "css/inj2.css" ],
+      "js": [ "lib/MooTools-Core-1.5.2-compat-compressed.js", "js/s2.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "ru",
+   "description": "__MSG_chrome_extension_description__",
+   "icons": {
+      "128": "im/128.png",
+      "64": "im/64.png"
+   },
+   "manifest_version": 2,
+   "name": "freeGate+ CDN Proxy (Ultimate Edition)",
+   "options_page": "options.html",
+   "permissions": [ "webNavigation", "contextMenus", "webRequest", "webRequestBlocking", "unlimitedStorage", "tabs", "proxy", "browsingData", "storage", "http://*/*", "https://*/*", "*://*/*", "\u003Call_urls>" ],
+   "short_name": "__MSG_chrome_extension_sname__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.6",
+   "web_accessible_resources": [ "im/*.png", "im/*.gif", "lib/*.js" ]
+}

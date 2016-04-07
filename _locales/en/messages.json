@@ -1,0 +1,248 @@
+{
+   "browser_action_title": {
+      "message": "friGate - On/Off"
+   },
+   "chrome_extension_description": {
+      "message": "Lets get better access to the sites. Encrypts traffic. It allows you to open blocked sites."
+   },
+   "chrome_extension_name": {
+      "message": "friGate CDN - access to sites"
+   },
+   "chrome_extension_sname": {
+      "message": "friGate CDN"
+   },
+   "messAddList": {
+      "message": "Add list"
+   },
+   "messAlertClose": {
+      "message": "Close"
+   },
+   "messAlertError": {
+      "message": "An error has occurred"
+   },
+   "messAreYouSure": {
+      "message": "Are you sure?"
+   },
+   "messBack": {
+      "message": "back"
+   },
+   "messChange": {
+      "message": "change"
+   },
+   "messCmTitleAdd": {
+      "message": "add a site to list"
+   },
+   "messCmTitleAddGl": {
+      "message": "add to list friGate"
+   },
+   "messCommunity": {
+      "message": "Community"
+   },
+   "messDay": {
+      "message": "day"
+   },
+   "messDays": {
+      "message": "days"
+   },
+   "messDays2": {
+      "message": "days"
+   },
+   "messEconomy": {
+      "message": "traffic economy:"
+   },
+   "messErrLim": {
+      "message": "Only list friGate"
+   },
+   "messErrOverExtProxy": {
+      "message": "is not enabled, the proxy is managed by a different extension"
+   },
+   "messFromList": {
+      "message": "site from list "
+   },
+   "messHo": {
+      "message": "hour"
+   },
+   "messHos": {
+      "message": "hours"
+   },
+   "messHos2": {
+      "message": "hours"
+   },
+   "messLast": {
+      "message": "during "
+   },
+   "messLists": {
+      "message": "Set up a list of sites"
+   },
+   "messListsAdd": {
+      "message": "Add your own lists of sites"
+   },
+   "messListsAddSite": {
+      "message": "Add site"
+   },
+   "messListsAddSiteDomain": {
+      "message": "Domain"
+   },
+   "messListsAddSiteFile": {
+      "message": "URL to verify access"
+   },
+   "messListsAlgDesc": {
+      "message": "\u003Ch5>Better add at once domain subdomains, for example: \u003Cstrong>*.twitter.com\u003C/strong> instead of \u003Cstrong>twitter.com\u003C/strong>.\u003C/h5> When using the analytical algorithm you should choose to check, this can be the small images on the website, which is being tested."
+   },
+   "messListsConfirmCancel": {
+      "message": "Cancel"
+   },
+   "messListsConfirmDelList": {
+      "message": "You delete the list. Are you sure?"
+   },
+   "messListsConfirmDelNoEmptyList": {
+      "message": "You remove a non-empty list. Are you sure?"
+   },
+   "messListsConfirmDelSite": {
+      "message": "You remove the site from the list: "
+   },
+   "messListsConfirmOK": {
+      "message": "Confirm"
+   },
+   "messListsEmpty": {
+      "message": "List is empty"
+   },
+   "messListsFileNotFound": {
+      "message": "At this address file not found, check the 'URL to access checks'"
+   },
+   "messListsName": {
+      "message": "list name"
+   },
+   "messListsNoAlg": {
+      "message": "this validation algorithm is not suitable for this site, and select a different algorithm"
+   },
+   "messListsOwn": {
+      "message": "lists of sites:"
+   },
+   "messListsSiteHostFormat": {
+      "message": "Invalid format domain"
+   },
+   "messListsSiteUrlAlrIs": {
+      "message": "Already have this site in the list"
+   },
+   "messListsSiteUrlAlrIs2": {
+      "message": "This site is already present in the list "
+   },
+   "messListsSiteUrlAlrIs3": {
+      "message": "It is not necessary to add."
+   },
+   "messListsSiteUrlFormat": {
+      "message": "Invalid address format"
+   },
+   "messListsSomethingHappened": {
+      "message": "something seems to have happened, then try the request again after a couple of seconds"
+   },
+   "messMin": {
+      "message": "min."
+   },
+   "messModalConfirmTitle": {
+      "message": "confirm it"
+   },
+   "messNavi1": {
+      "message": "\u003Ca target=\"_blank\" href=\"http://fri-gate.org/\" class=\"frigate_li2\">recommendations\u003C/a>"
+   },
+   "messNavi2": {
+      "message": "\u003Ca target=\"_blank\" href=\"http://fri-gate.org/\" class=\"frigate_li2\">how it work\u003C/a>"
+   },
+   "messNavi3": {
+      "message": "\u003Ca target=\"_blank\" href=\"http://forum.fri-gate.org/\" class=\"frigate_li2\">add site\u003C/a>"
+   },
+   "messOptListAlrIs": {
+      "message": "Already have the list with the same name"
+   },
+   "messOptListFormat": {
+      "message": "Wrong format of the list name. Must consist of letters, digits, _-"
+   },
+   "messProxy": {
+      "message": "through \u003Ca href=\"http://fri-gate.org/\" target=\"_blank\" class=\"frigate_li1\">\u003Cimg id=\"frigate_logo\" height=\"16\" src=\"\" style=\"vertical-align: bottom;\">\u003C/a> \u003Ca href=\"http://fri-gate.org\" target=\"_blank\" class=\"frigate_li1\">friGate\u003C/a>. &nbsp;"
+   },
+   "messProxyIsOff": {
+      "message": "shut off"
+   },
+   "messProxyOff": {
+      "message": "activate"
+   },
+   "messProxyOn": {
+      "message": "proxy enabled"
+   },
+   "messProxyOnAn": {
+      "message": "anonymous proxy enabled"
+   },
+   "messProxyOnManually": {
+      "message": "proxy enabled manually"
+   },
+   "messReset": {
+      "message": "Reset"
+   },
+   "messSiteWithoutProxy": {
+      "message": "available without proxy"
+   },
+   "messTypeCh1": {
+      "message": "simple algorithm"
+   },
+   "messTypeCh2": {
+      "message": "analytical algorithm"
+   },
+   "messTypeCh3": {
+      "message": "proxy always on"
+   },
+   "messUpdate": {
+      "message": "\u003Ca target=\"_blank\" href=\"http://fri-gate.org/update\" class=\"frigate_links2\">upgrade to\u003Cbr /> the latest version!\u003C/a>"
+   },
+   "mess_addproxy": {
+      "message": "add your proxy"
+   },
+   "mess_autochproxy": {
+      "message": "Choose the proxy automatically if the site is not available or an error occurred."
+   },
+   "mess_fgproxy": {
+      "message": "used free proxy of friGate-owned"
+   },
+   "mess_header_adv": {
+      "message": "Advertising settings"
+   },
+   "mess_header_alert": {
+      "message": "Alert settings"
+   },
+   "mess_header_anon": {
+      "message": "Anonymity"
+   },
+   "mess_header_opt": {
+      "message": "Extras. settings"
+   },
+   "mess_header_proxy": {
+      "message": "Proxy settings"
+   },
+   "mess_isadv": {
+      "message": "Do not show ads. Disabling advertising, you do NOT HELP the development of the project!"
+   },
+   "mess_isalert": {
+      "message": "do not notify me that the site is available through the extension and enabled or disabled at the moment proxy for a specific site. Attention, and you can not turn a proxy for a particular page!"
+   },
+   "mess_isanon": {
+      "message": "Enable anonymous. Enable only if the site is blocked, even through a normal proxy. Must be provided by a third-party DNS (for example 8.8.8.8)."
+   },
+   "mess_iscompress": {
+      "message": "Enable optimization \u003Ca href=\"https://developers.google.com/speed/pagespeed/\" target=\"_blank\">PageSpeed Google\u003C/a>. Works only when traffic goes through the proxy."
+   },
+   "mess_manually_dis": {
+      "message": "Dis. in settings"
+   },
+   "mess_option": {
+      "message": "options"
+   },
+   "mess_ownproxy": {
+      "message": "Own proxy:"
+   },
+   "mess_proxyformat_err": {
+      "message": "incorrect format proxy (ip:port)"
+   },
+   "mess_slowconn": {
+      "message": "Slow internet connection."
+   }
+}

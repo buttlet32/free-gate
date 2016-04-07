@@ -1,0 +1,230 @@
+
+#frigate_wr, #frigate_wr2 {
+    position: fixed;
+    top: 3em;
+    right: 1.5em;
+    width: auto !important;
+    z-index: 2147483647;
+    visibility: visible;
+    font-size: 13px;
+}
+
+.frigate_vi {
+    visibility: visible !important;
+    display: block !important;
+}
+
+#frigate_wr {
+    background: url('chrome-extension://__MSG_@@extension_id__/im/482.gif') no-repeat center 45px;
+}
+
+#frigate_wr2 {
+    font-size: 12px;
+    visibility: hidden;
+}
+
+#frigate_topbl {
+
+    background: -webkit-radial-gradient(center bottom, circle farthest-corner, rgba(255, 255, 255, 1) 0%, rgba(244, 233, 205, 0.70) 100%);
+
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+
+    -webkit-box-shadow: 0 10px 7px -7px rgba(0, 0, 0, 0.4), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.1) inset;
+
+    width: auto;
+    border: 1px solid #fff;
+
+    padding: 0;
+    border-radius: 5px;
+
+    -webkit-border-radius: 5px;
+
+    position: relative;
+    /*
+    font:13px "Century Gothic", "Trebuchet MS", Helvetica, sans-serif; color:#111; -webkit-font-smoothing:antialiased; -webkit-text-size-adjust:none;
+    */
+    font-size: 10px;
+    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+#frigate_topbl:before,
+#frigate_topbl:after {
+    content: "";
+    position: absolute;
+    z-index: -2;
+}
+
+#frigate_list, #frigate_on, #frigate_dop {
+    visibility: hidden;
+}
+
+#frigate_dop {
+    text-align: center;
+}
+
+
+#frigate_f {
+    -webkit-border-radius: 5px;
+    background: rgba(250, 250, 250, 0);
+    padding: 0;
+    color: #000 !important;
+    font-weight: normal;
+    border-bottom: 1px solid #ccc;
+    text-align: center !important;
+}
+
+#frigate_body {
+    margin-top: .5em;
+    padding: .5em .5em .5em .5em;
+    color: #000 !important;
+    text-align: center !important;
+    line-height: 1.3em;
+    min-height: 30px;
+}
+
+a.frigatel_de, a.frigatel_nl, a.frigatel_uk, a.frigatel_fr, a.frigatel_ru, a.frigatel_us, a.frigatel_es, a.frigatel_lt {
+    background: url('chrome-extension://__MSG_@@extension_id__/im/de.png') center center no-repeat;
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+    display: block;
+    text-decoration: none;
+    margin: auto;
+}
+
+a.frigatel_nl {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/im/nl.png');
+}
+
+a.frigatel_uk {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/im/uk.png');
+}
+
+a.frigatel_fr {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/im/fr.png');
+}
+
+a.frigatel_ru {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/im/ru.png');
+}
+
+a.frigatel_us {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/im/us.png');
+}
+a.frigatel_es {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/im/sp.png');
+}
+a.frigatel_lt {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/im/lt.png');
+}
+
+.frigate_logo, .frigate_on, .frigate_off, .frigate_link, .frigate_link2 {
+    text-decoration: none !important;
+    padding: 3px 12px 3px 12px;
+    margin-right: 3px;
+    cursor: pointer;
+    background: url('chrome-extension://__MSG_@@extension_id__/im/on.png') no-repeat center center;
+}
+
+.frigate_off {
+    background: url('chrome-extension://__MSG_@@extension_id__/im/off.png') no-repeat center center;
+}
+
+.frigate_logo {
+    background: url('chrome-extension://__MSG_@@extension_id__/im/19.png') no-repeat center center;
+}
+
+.frigate_link {
+    background: url('chrome-extension://__MSG_@@extension_id__/im/link.png') no-repeat center center;
+}
+
+.frigate_link2 {
+    background: url('chrome-extension://__MSG_@@extension_id__/im/link2.png') no-repeat center center;
+}
+
+.frigate_small {
+    font-size: 80%;
+}
+
+.frigate_highlight {
+    -webkit-border-radius: 3px;
+    padding: 1px 5px 1px 5px;
+    margin-bottom: 3px;
+    color: #fff;
+    font-size: 11px;
+    /*background-image: -webkit-radial-gradient(left top, ellipse farthest-corner, #FFFFFF 0%, #3D7790 100%);
+    */
+    background: rgba(61, 119, 144, 0.7);
+    font-weight: normal;
+
+}
+
+a:link.frigate_links, a:visited.frigate_links, a:active.frigate_links, a:hover.frigate_links, a:focus.frigate_links {
+    color: #3D7790 !important;
+    font-weight: bold;
+    font-size: 12px !important;
+    cursor: pointer;
+}
+
+a:link.frigate_links2, a:visited.frigate_links2, a:active.frigate_links2, a:hover.frigate_links2, a:focus.frigate_links2 {
+    color: red !important;
+    font-size: 10px !important;
+    font-weight: normal;
+}
+
+a.frigate_links[data-tooltip]:after, a.frigate_link2[data-tooltip]:after {
+    font-size: 9px;
+    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    font-weight: normal;
+    text-align: left;
+    line-height: 13px;
+    border-radius: 0px 7px 7px 7px;
+
+    color: #FFF;
+    content: attr(data-tooltip);
+    margin-top: 15px;
+
+    opacity: 0;
+    padding: 3px 7px;
+    position: absolute;
+    visibility: hidden;
+    -webkit-transition: all 0.4s ease-in-out;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0 6px 5px -5px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    background: rgba(121, 121, 106, 0.80)
+}
+
+a.frigate_links[data-tooltip]:hover:after, a.frigate_link2[data-tooltip]:hover:after {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.frigate_cl {
+    float: none;
+    clear: both;
+    height: 0 !important;
+    margin: 0 !important;
+    display: block;
+}
+
+#frigate-overlay2 {
+    position: fixed;
+    display: block;
+    z-index: 2147483647;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F4E9CD;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.frigate_db {
+    display: block;
+    text-align: center;
+}

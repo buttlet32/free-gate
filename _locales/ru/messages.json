@@ -1,0 +1,248 @@
+{
+   "browser_action_title": {
+      "message": "вкл/выкл"
+   },
+   "chrome_extension_description": {
+      "message": "Позволяет получить доступ к заблокированным сайтам, а так же выполняет шифрование вашего трафика!"
+   },
+   "chrome_extension_name": {
+      "message": "FreeGate Ultimate Plus - доступ к сайтам"
+   },
+   "chrome_extension_sname": {
+      "message": "FreeGate Ultimate Plus"
+   },
+   "messAddList": {
+      "message": "Добавить список"
+   },
+   "messAlertClose": {
+      "message": "Закрыть"
+   },
+   "messAlertError": {
+      "message": "Упс! Ошибка.."
+   },
+   "messAreYouSure": {
+      "message": "Вы точно уверены?"
+   },
+   "messBack": {
+      "message": "назад"
+   },
+   "messChange": {
+      "message": "изменить"
+   },
+   "messCmTitleAdd": {
+      "message": "добавить сайт в свой список"
+   },
+   "messCmTitleAddGl": {
+      "message": "добавить сайт в список FreeGate"
+   },
+   "messCommunity": {
+      "message": "Сообщество"
+   },
+   "messDay": {
+      "message": "день"
+   },
+   "messDays": {
+      "message": "дней"
+   },
+   "messDays2": {
+      "message": "дня"
+   },
+   "messEconomy": {
+      "message": "Экономия:"
+   },
+   "messErrLim": {
+      "message": "Только список FreeGate"
+   },
+   "messErrOverExtProxy": {
+      "message": "не включен, прокси управляется другим расширением"
+   },
+   "messFromList": {
+      "message": "из списка "
+   },
+   "messHo": {
+      "message": "час"
+   },
+   "messHos": {
+      "message": "часов"
+   },
+   "messHos2": {
+      "message": "часа"
+   },
+   "messLast": {
+      "message": "за "
+   },
+   "messLists": {
+      "message": "Настройка списка сайтов"
+   },
+   "messListsAdd": {
+      "message": "Добавить собственные списки сайтов"
+   },
+   "messListsAddSite": {
+      "message": "Добавить сайт"
+   },
+   "messListsAddSiteDomain": {
+      "message": "Домен"
+   },
+   "messListsAddSiteFile": {
+      "message": "URL для проверки доступа"
+   },
+   "messListsAlgDesc": {
+      "message": "\u003Ch5>Рекомендуем добавлять домен с поддоменами, например: \u003Cstrong>*.twitter.com\u003C/strong> вместо \u003Cstrong>www.twitter.com\u003C/strong>.\u003C/h5>"
+   },
+   "messListsConfirmCancel": {
+      "message": "Отмена"
+   },
+   "messListsConfirmDelList": {
+      "message": "Вы удаляете список. Вы уверены?"
+   },
+   "messListsConfirmDelNoEmptyList": {
+      "message": "Вы удаляете непустой список. Вы уверены?"
+   },
+   "messListsConfirmDelSite": {
+      "message": "Вы удаляете сайт из списка: "
+   },
+   "messListsConfirmOK": {
+      "message": "Подтверждаю"
+   },
+   "messListsEmpty": {
+      "message": "Список пуст"
+   },
+   "messListsFileNotFound": {
+      "message": "По данному адресу файл не найден, проверьте 'URL для проверки доступа'"
+   },
+   "messListsName": {
+      "message": "название списка"
+   },
+   "messListsNoAlg": {
+      "message": "данный алгоритм проверки не подходит для этого сайта, выбирете другой алгоритм"
+   },
+   "messListsOwn": {
+      "message": "списки сайтов:"
+   },
+   "messListsSiteHostFormat": {
+      "message": "Неверный формат"
+   },
+   "messListsSiteUrlAlrIs": {
+      "message": "Уже есть такой сайт в этом списке"
+   },
+   "messListsSiteUrlAlrIs2": {
+      "message": "Сайт уже есть в списке "
+   },
+   "messListsSiteUrlAlrIs3": {
+      "message": "Повторное добавление не требуется."
+   },
+   "messListsSiteUrlFormat": {
+      "message": "Неверный формат"
+   },
+   "messListsSomethingHappened": {
+      "message": "произошла ошибка, попробуйте через несколько минут"
+   },
+   "messMin": {
+      "message": "мин."
+   },
+   "messModalConfirmTitle": {
+      "message": "подтвердите действие"
+   },
+   "messNavi1": {
+      "message": ""
+   },
+   "messNavi2": {
+      "message": ""
+   },
+   "messNavi3": {
+      "message": ""
+   },
+   "messOptListAlrIs": {
+      "message": "Уже есть такой список"
+   },
+   "messOptListFormat": {
+      "message": "Имя списка должно состоять из букв, цифр, _-"
+   },
+   "messProxy": {
+      "message": ""
+   },
+   "messProxyIsOff": {
+      "message": "отключить"
+   },
+   "messProxyOff": {
+      "message": "включить"
+   },
+   "messProxyOn": {
+      "message": "прокси активен"
+   },
+   "messProxyOnAn": {
+      "message": "анонимный прокси включен"
+   },
+   "messProxyOnManually": {
+      "message": "прокси включен вручную"
+   },
+   "messReset": {
+      "message": "Сброс"
+   },
+   "messSiteWithoutProxy": {
+      "message": "доступен без прокси"
+   },
+   "messTypeCh1": {
+      "message": "упрощенный алгоритм"
+   },
+   "messTypeCh2": {
+      "message": "аналитический алгоритм"
+   },
+   "messTypeCh3": {
+      "message": "proxy включен всегда"
+   },
+   "messUpdate": {
+      "message": ""
+   },
+   "mess_addproxy": {
+      "message": "добавить свой прокси"
+   },
+   "mess_autochproxy": {
+      "message": "Подбирать прокси автоматически, если сайт недоступен или произошла ошибка."
+   },
+   "mess_fgproxy": {
+      "message": "в настоящее время используются бесплатные прокси-сервера freeGate"
+   },
+   "mess_header_adv": {
+      "message": "Настройки рекламы"
+   },
+   "mess_header_alert": {
+      "message": "Настройки оповещения"
+   },
+   "mess_header_anon": {
+      "message": "Анонимность"
+   },
+   "mess_header_opt": {
+      "message": "Доп. настройки"
+   },
+   "mess_header_proxy": {
+      "message": "Настройки прокси"
+   },
+   "mess_isadv": {
+      "message": ""
+   },
+   "mess_isalert": {
+      "message": "Отключить всплывающую панель и не оповещать меня о том, что сайт поддерживается расширением и включен ли или отключен прокси в данный момент для конкретного сайта. Внимание, при этом вы не сможете включить прокси для отдельной страницы!"
+   },
+   "mess_isanon": {
+      "message": "Включить анонимность. Включайте только при необходимости, если сайт блокируется даже через обычный прокси. Обязательно должен быть прописан сторонний DNS (например 8.8.8.8)"
+   },
+   "mess_iscompress": {
+      "message": "Включить оптимизацию \u003Ca href=\"https://developers.google.com/speed/pagespeed/\" target=\"_blank\">PageSpeed Google\u003C/a>. Работает только когда трафик идет через прокси."
+   },
+   "mess_manually_dis": {
+      "message": "Откл. в настройках"
+   },
+   "mess_option": {
+      "message": "настройки"
+   },
+   "mess_ownproxy": {
+      "message": "собственные прокси:"
+   },
+   "mess_proxyformat_err": {
+      "message": "неверный формат прокси (должно быть ip:port)"
+   },
+   "mess_slowconn": {
+      "message": "Медленное соединение."
+   }
+}
